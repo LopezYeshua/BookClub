@@ -1,0 +1,66 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+input, textarea  {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.bg-nav {
+    background-color: black;
+}
+
+.round-top {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+
+/** link css */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: turquoise;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+/** end link css  */
+
+/** table links  */
+.unstyle {
+    text-decoration: none;
+    color: black !important;
+}
+
+.unstyle:hover {
+    color: hotpink !important;
+}
+/** Home link */
+.home-link {
+    text-decoration: none;
+    color: white !important;
+}
+
+
+
+.border-y {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.show-label span {
+    color: red;
+}
+
+.container-border {
+    border: 2px solid black;
+}
